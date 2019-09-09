@@ -1,0 +1,11 @@
+{
+  "name": "pug__exchenge",
+  "version": "1.0.0",
+  "description": "test__expiriens_for_MichailR",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Valerius",
+  "license": "SEE LICENSE IN MyLicenseFile"
+}
