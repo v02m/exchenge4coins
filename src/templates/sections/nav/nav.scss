@@ -1,0 +1,79 @@
+@import '../../variables/variables';
+
+.nav {
+    display: inline-block;
+  &:first-child {
+    margin-left: 250px;
+  }
+  
+  &:last-child {
+    margin-right: 250px;
+  }
+   
+
+  &__wrap  {
+    display: inline-block;
+    vertical-align: top;
+    
+    font-family: $ff-main-bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3c;
+
+    /*&:hover::after {
+      content: '';
+      display: block;
+      vertical-align: bottom;
+      height: 2px;
+      width: 6rem;
+  
+      //margin-left: 10px;
+      border-bottom-style:  solid;
+      border-bottom-color:  #1c7430;*/
+      /*border-bottom:  3px;*/
+      //background: #424242;
+    
+    &:hover {
+      border-bottom: 2px solid $gray-700;
+    }
+    
+
+    /*&::after {
+      !*content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 5px;
+      height: 5px;
+      margin-left: 15px;
+      border-radius: 50%;
+      background: #424242;*!
+    }*/
+
+    /*&:last-child::after {
+      display: none;
+    }*/
+  }
+  
+  
+  &__link {
+    display: inline-block;
+    padding: 10px;
+    font-family: $ff-main-bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: $gray-500;
+    transition: .3c;
+    
+    /*&--active {
+      color: $gray-600;
+    }
+    */
+    &:hover {
+      color: darken($gray-500, 70%);
+      text-decoration: none;
+    }
+  }
+  
+  
+}
+

@@ -1,0 +1,16 @@
+.header {
+
+    &__contacts-mod{
+        background-color: $nav-grey;
+    }
+    
+    &__btn {
+        color: $gray-500;
+        background: lighten($nav-grey, 50%)
+    }
+    
+    
+    &__nav-mod{
+        background: #fffffe;
+    }
+}

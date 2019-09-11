@@ -175,7 +175,7 @@ gulp.task('clean', function del(cb) {
 
 gulp.task('watch', function () {
     gulp.watch(src+'/templates/**/*.pug', gulp.series('templates:compile'));
-    gulp.watch(src+'/styles/**/*.scss', gulp.series('styles:compile'));
+    gulp.watch(src+'/templates/**/*.scss', gulp.series('styles:compile'));
     gulp.watch(src+'/js/*.js', gulp.series('js:compile'));
     gulp.watch(src+'/images/**/*.*', gulp.series('copy:images'));
 });

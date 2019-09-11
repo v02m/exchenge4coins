@@ -1,0 +1,57 @@
+@import '../../variables/variables';
+
+.contacts {
+  display: inline-block;
+  height: 35px;
+
+  &__item {
+    //display: inline-block;
+    vertical-align: top;
+    margin-right: 2rem;
+    padding: 10px 10px 8px;
+    color: $gray-500;
+    
+    transition: 0.3s;
+
+    &-logo {
+      max-width: 10%;
+    }
+
+    &:hover {
+      color: darken($gray-500, 70%);
+    }
+
+    &:first-child {
+      margin-right: 2.5rem;
+      padding-right: 18px;
+      border-right: 1px solid #e2e2e2;
+    }
+
+    &__icon {
+      margin-right: 0.8rem;
+      vertical-align: middle;
+      font-size: 1.6rem;
+
+      &-email {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.fa-facebook {
+  display: inline-block;
+  margin: 5px 8px;
+  padding: 5px 8px 1px;
+  border-radius: 3px;
+  background-color: lighten(#1287bf, 30%) ;
+  color: $gray-500;
+  transition: 0.3s;
+
+  &:hover {
+    color: lighten($gray-500, 50%);
+    background-color: darken(#1287bf, 1%) ;
+  }
+}
+
+

@@ -1,0 +1,11 @@
+include ../../variables/variables
+header.header#header
+    .container-fluid.header__container
+        .d-flex.flex-row.justify-content-around.header__contacts-mod
+            .col-md-8
+                include ./contacts
+            .col-md-4
+                a.btn.btn-light.header__btn(href="#") Войти
+        .d-flex.flex-row.justify-content-around.header__nav-mod
+            .col-md
+                include ./nav

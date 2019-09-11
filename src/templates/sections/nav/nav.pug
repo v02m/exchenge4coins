@@ -1,1 +1,11 @@
-//begin navigation
+include ../../variables/variables
+
+nav.nav.d-flex.justify-content-around
+    - var items = itemsMenu
+    each item in items
+        if item === 'Home'
+            div.nav__wrap
+                a.nav__link.nav__link--active(href="#")= item
+        else
+            div.nav__wrap
+                a.nav__link(href="#")= item
