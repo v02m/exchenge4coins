@@ -60,7 +60,7 @@ gulp.task('templates:compile', function buildHTML() {
 /* ---------------Style compile ---------*/
 
 gulp.task('styles:compile', function () {
-    return gulp.src(src+'/styles/main.scss')
+    return gulp.src(src+'/templates/main.scss')
         .pipe(sourcemaps.init())
         // .pipe(sass({outputStyle:'compressed'}).on('error', sass.logError))
         .pipe(sass({
