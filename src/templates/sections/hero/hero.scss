@@ -1,0 +1,49 @@
+.hero {
+    
+    &-mod {
+        background-color: $nav-grey;
+    }
+    
+    &__img{
+        width: 100%;
+        height: 600px;
+    }
+    
+    &__h2 {
+        font-weight: 300;
+        text-align: center;
+        color: $gray-600;
+    }
+    
+    &__p {
+       // font-family: 'Open Sans', sans-serif;;
+        line-height: 1.5rem;
+        font-weight: 100;
+        font-size: 1.5rem;
+        color: $gray-600;
+        
+        &-mod {
+            padding-bottom: 1rem;
+        
+        }
+    }
+    
+    &__icon {
+        display: inline-block;
+      
+        text-align: center;
+        font-size: 4rem;
+        font-weight: normal;
+        
+        background-color: $gray-700;
+        color: $yellowTincoff;
+    }
+    
+    &__h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: $gray-600;
+    }
+    
+}

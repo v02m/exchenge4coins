@@ -1,5 +1,7 @@
 @import "variables/variables";
 
+@import "../styles/fonts/icons";
+
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "../../node_modules/bootstrap/scss/variables.scss";
@@ -13,7 +15,7 @@
 @import "../../node_modules/bootstrap/scss/transitions";
 ////@import "../../node_modules/bootstrap/scss/navbar";
 ////@import "../../node_modules/bootstrap/scss/forms";
-////@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/type";
 ////@import "../../node_modules/bootstrap/scss/_card";
 ////@import "../../node_modules/bootstrap/scss/_pagination";
 ////@import "../../node_modules/bootstrap/scss/_list-group";
@@ -23,17 +25,13 @@
 
 
 
-
-
-
-
-
 @import "sections/nav/header";
 @import "sections/nav/contacts";
 @import "sections/nav/nav";
 
 
 @import "sections/hero/hero";
+@import "sections/action/action";
 
 
 

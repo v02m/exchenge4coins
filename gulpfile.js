@@ -69,7 +69,7 @@ gulp.task('styles:compile', function () {
         })
         .on('error', sass.logError))
         .pipe(autoprefixer({
-            browsers: ["last 8 versions"],
+            browsers: ["last 2 versions"],
             cascade: true
         }))
         .pipe(removeComments())

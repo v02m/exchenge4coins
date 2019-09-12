@@ -32,6 +32,7 @@
     "popper.js": "^1.15.0"
   },
   "dependencies": {
+    "@icon/themify-icons": "^1.0.1",
     "font-awesome": "^4.7.0"
   }
 }

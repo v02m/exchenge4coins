@@ -1,0 +1,8 @@
+mixin rules(titleRules, textRules, classRules)
+    .col-md-6.col-sm-6.col-xs-12.mb-2.mt-3
+        .d-flex.justify-content-end.mt-3
+            .col-md-3
+                i(class=classRules)
+            .col-md-9
+                h3.hero__h3= titleRules
+                p.hero__p-mod  #{textRules}
