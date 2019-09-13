@@ -6,3 +6,25 @@ mixin rules(titleRules, textRules, classRules)
             .col-md-9
                 h3.hero__h3= titleRules
                 p.hero__p-mod  #{textRules}
+
+
+
+
+mixin cardCoins(cardHeader, cardTitle, cardText, cardId)
+    .card.border-dark.mb-3( style="max-width: 25rem;")
+        .card-header #{cardHeader}
+        .card-body.text-dark
+            h5.card-title #{cardTitle}
+            p.card-text #{cardText}
+            input.mr-5(id=cardId)
+            a.btn.btn-warning.ml-5(href="#result") Button
+
+
+
+//.card.border-dark.mb-3( style="max-width: 18rem;")
+    //    .card-header Header
+    //    .card-body.text-dark
+    //        h5.card-title Dark card title
+    //        p.card-text
+    //            | Some quick example text to build on the card title and make up the bulk of the
+    //            | card content.

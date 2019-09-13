@@ -1,0 +1,47 @@
+include ../../variables/variables
+include ../../mixins/mixins
+
+section.action#action
+    .container-fluid
+        .row
+           .col-md-12.action__header
+                h2.display-4.text-center Какая то гребаная хуйня чую!
+                p.text-center Просто текст Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate iste
+                    | labore natus numquam repellat totam vel? Aliquid culpa dolore exercitationem inventore libero
+                    | molestias non perferendis possimus, recusandae, rem repellendus.
+
+
+        .row.action__coins
+            .col-md-8.d-flex
+                .row
+                    .col-md-12.ml-5.mr-5
+                        +cardCoins(cardHeader1, cardTitle1, cardText1, "id__dollar")
+                        +cardCoins(cardHeader1, cardTitle1, cardText1, "id__yen")
+
+                .row
+                    .col-md-12.ml-5.mr-5
+                        +cardCoins(cardHeader1, cardTitle1, cardText1, "id__pund")
+                        +cardCoins(cardHeader1, cardTitle1, cardText1)
+
+
+            .col-md-4
+                h3 Пополнить баланс
+                p Внесите ваши денежки на ваш счет на нашей великой бирже
+                .action__balans#action__balans
+                    .action__place__balans
+                        | 00
+                        label руб
+                .action__accept
+                    input(type="text" name="depositcoin" id="depositCoin" value="0" onkeyup="validCoins(this)" onfocus="this.value=''" onBlur="focusOut()")
+                    button.btn.btn-secondary(type="button" id="acceptCoins") Внести
+
+                    //Варианты
+                //.input-group.mb-3
+                //    input.form-control(type="text" placeholder="Recipient's username" aria-label="Recipient username"  aria-describedby="button-addon2")
+                //.input-group-append
+                //    button.btn.btn-outline-secondary(type="button" id="button-addon2") Внести
+
+
+
+
+

@@ -1,0 +1,19 @@
+include ../../variables/variables
+include ../../mixins/mixins
+
+section.result#result
+    .container-fluid
+        .row
+            .col-md-12
+                h2.display-4.text-center Какойто заголовок!
+                p.text-center Просто текст Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate iste
+                    | labore natus numquam repellat totam vel? Aliquid culpa dolore exercitationem inventore libero
+
+                <div id="msg">
+                    <div id="text">
+                    </div>
+                    <div id="close">
+                        <a href="javascript:closeMsg()">[Закрыть]</a>
+                    </div>
+                </div>
+                <p>Нажмите на <a href="#" onclick="textMsg('Спасибо, что нажали на ссылку!')"> ссылку для открытия сообщения</a>.</p>

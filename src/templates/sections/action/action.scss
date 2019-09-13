@@ -1,0 +1,32 @@
+.action {
+    height: 600px;
+    
+    
+    &__header {
+        h2 {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            font-weight: 300;
+            color: $gray-500;
+        }
+        
+        p {
+            font-size: 1.5rem;
+            color: $gray-500;
+            padding: 2px 7rem 40px 7rem;
+        }
+    }
+    
+    &__coins {
+        background-color: $nav-grey;
+    }
+    
+    &__place__balans {
+        height: 10rem;
+    }
+}
+
+
+
+
+
